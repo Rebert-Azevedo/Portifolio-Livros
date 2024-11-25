@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca de Livros</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Biblioteca de Livros</h1>
+        <p>Uma coleção de livros para meus colegas da faculdade.</p>
+    </header>
+    
+    <nav>
+        <ul class="tabs">
+            <li class="tab active" data-category="programacao">Programação</li>
+            <li class="tab" data-category="python">Python</li>
+            <li class="tab" data-category="java">Java</li>
+            <li class="tab" data-category="javascript">JavaScript</li>
+        </ul>
+    </nav>
+
+    <main>
+        <div id="programacao" class="content active">
+            <h2>Livros de Programação</h2>
+            <div class="grid">
+                <div class="book">
+                    <img src="./assets/capas/clean_code.jpg" alt="Livro 1">
+                    <p>Clean Code</p>
+                    <a href="link-do-livro1.pdf" target="_blank" class="button">Ver Livro</a>
+                </div>
+                <div class="book">
+                    <img src="capa-livro2.jpg" alt="Livro 2">
+                    <p>Livro 2 - Algoritmos</p>
+                    <a href="link-do-livro2.pdf" target="_blank" class="button">Ver Livro</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="python" class="content">
+            <h2>Livros de Python</h2>
+            <div class="grid">
+                <div class="book">
+                    <img src="capa-python1.jpg" alt="Livro Python 1">
+                    <p>Livro 1 - Introdução ao Python</p>
+                    <a href="link-do-livro-python1.pdf" target="_blank" class="button">Ver Livro</a>
+                </div>
+                <div class="book">
+                    <img src="capa-python2.jpg" alt="Livro Python 2">
+                    <p>Livro 2 - Python Avançado</p>
+                    <a href="link-do-livro-python2.pdf" target="_blank" class="button">Ver Livro</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="java" class="content">
+            <h2>Livros de Java</h2>
+            <div class="grid">
+                <div class="book">
+                    <img src="capa-java1.jpg" alt="Livro Java 1">
+                    <p>Livro 1 - Java Básico</p>
+                    <a href="link-do-livro-java1.pdf" target="_blank" class="button">Ver Livro</a>
+                </div>
+                <div class="book">
+                    <img src="capa-java2.jpg" alt="Livro Java 2">
+                    <p>Livro 2 - Java para Web</p>
+                    <a href="link-do-livro-java2.pdf" target="_blank" class="button">Ver Livro</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="javascript" class="content">
+            <h2>Livros de JavaScript</h2>
+            <div class="grid">
+                <div class="book">
+                    <img src="capa-js1.jpg" alt="Livro JavaScript 1">
+                    <p>Livro 1 - JavaScript para Iniciantes</p>
+                    <a href="link-do-livro-js1.pdf" target="_blank" class="button">Ver Livro</a>
+                </div>
+                <div class="book">
+                    <img src="capa-js2.jpg" alt="Livro JavaScript 2">
+                    <p>Livro 2 - JavaScript Moderno</p>
+                    <a href="link-do-livro-js2.pdf" target="_blank" class="button">Ver Livro</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
