@@ -1,39 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biblioteca de Livros</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Biblioteca Pain-Codes</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="shortcut icon" href="./assets/images/icon/image.png" type="icon">
 </head>
+
 <body>
     <header>
-        <h1>Biblioteca de Livros</h1>
-        <p>Uma coleção de livros para meus colegas da faculdade.</p>
+        <h1>Biblioteca Pain-Codes</h1>
     </header>
-    
+
     <nav>
         <ul class="tabs">
-            <li class="tab active" data-category="programacao">Programação</li>
-            <li class="tab" data-category="python">Python</li>
+            <li class="tab active" data-category="banco-de-dados">Banco de Dados</li>
+            <li class="tab" data-category="html-css">Html-CSS</li>
             <li class="tab" data-category="java">Java</li>
             <li class="tab" data-category="javascript">JavaScript</li>
+            <li class="tab" data-category="linux">Linux</li>
+            <li class="tab" data-category="mobile">Mobile</li>
+            <li class="tab" data-category="php">Php</li>
+            <li class="tab" data-category="python">Python</li>
+            <li class="tab" data-category="redes">Redes</li>
         </ul>
     </nav>
 
     <main>
-        <div id="programacao" class="content active">
-            <h2>Livros de Programação</h2>
+        <div id="banco-de-dados" class="content active">
+            <h2>Livros de Banco de Dados</h2>
             <div class="grid">
                 <div class="book">
-                    <img src="./assets/capas/clean_code.jpg" alt="Livro 1">
-                    <p>Clean Code</p>
-                    <a href="link-do-livro1.pdf" target="_blank" class="button">Ver Livro</a>
+                    <img src="./assets/images/Desenvolvimento-WEB-com-PHP-e-MySQL.jpg" alt="Livro banco-de-dados 1">
+                    <p>Desenvolvimento WEB com PHP e MySQL</p>
+                    <span class="author-label">Autor:</span>
+                    <span class="author">Evaldo Jr. Bento</span>
+                    <a href="https://drive.google.com/file/d/1Ju2yrDzeOfzHRxTUjNPoNyfUMMAvINRC/view?usp=drive_link"
+                        target="_blank" class="button">Ver Livro</a>
                 </div>
+
                 <div class="book">
-                    <img src="capa-livro2.jpg" alt="Livro 2">
-                    <p>Livro 2 - Algoritmos</p>
-                    <a href="link-do-livro2.pdf" target="_blank" class="button">Ver Livro</a>
+                    <img src="./assets/images/Oracle-Database-11g-SQL.jpg" alt="Livro banco-de-dados 2">
+                    <p>Oracle Database 11g SQL</p>
+                    <span class="author-label">Autor:</span>
+                    <span class="author">Jason Price</span>
+                    <a href="https://drive.google.com/file/d/1_ULg-cpa-ZKhJ7aewMZAZSoab6Y60Ypx/view?usp=drive_link"
+                        target="_blank" class="button">Ver Livro</a>
+                </div>
+
+                <div class="book">
+                    <img src="./assets/images/Manual-de-Referência-MySQL.png" alt="Livro banco-de-dados 3">
+                    <p>Manual de Referência do MySQL 4.1</p>
+                    <span class="author-label">Autor:</span>
+                    <span class="author">Desconhecido</span>
+                    <a href="https://drive.google.com/file/d/1UpJrB1cprLsMAyLS3W9wdPUOU-YIzZ7p/view?usp=drive_link"
+                        target="_blank" class="button">Ver Livro</a>
+                </div>
+
+                <div class="book">
+                    <img src="./assets/images/MongoDB-Construa-novas-aplicações-com-novas-tecnologias.jpg"
+                        alt="Livro banco-de-dados 4">
+                    <p>MongoDB - Construa novas aplicações com novas tecnologias</p>
+                    <span class="author-label">Autor:</span>
+                    <span class="author">Fernando Boaglio</span>
+                    <a href="https://drive.google.com/file/d/18NHjkCBuBKktUoySap7hQH89hT9VzZWH/view?usp=drive_link"
+                        target="_blank" class="button">Ver Livro</a>
+                </div>
+
+                <div class="book">
+                    <img src="./assets/images/PLSQL-Domine-a-linguagem-do-banco-de-dados-Oracle.jpg"
+                        alt="Livro banco-de-dados 5">
+                    <p>PLSQL - Domine a linguagem do banco de dados Oracle</p>
+                    <span class="author-label">Autor:</span>
+                    <span class="author">Eduardo Gonçalves</span>
+                    <a href="https://drive.google.com/file/d/1pkIEyayjkQgwDL2SBuyuOrHbuvzb6zhh/view?usp=drive_link"
+                        target="_blank" class="button">Ver Livro</a>
                 </div>
             </div>
         </div>
@@ -42,46 +85,51 @@
             <h2>Livros de Python</h2>
             <div class="grid">
                 <div class="book">
-                    <img src="capa-python1.jpg" alt="Livro Python 1">
-                    <p>Livro 1 - Introdução ao Python</p>
-                    <a href="link-do-livro-python1.pdf" target="_blank" class="button">Ver Livro</a>
+                    <img src="./assets/images/Python-para-Desenvolvedores.jpg" alt="Livro Python 1">
+                    <p>Python para Desenvolvedores - 2° Ed</p>
+                    <span class="author-label">Autor:</span>
+                    <span class="author">Luiz E. Borges</span>
+                    <a href="https://drive.google.com/file/d/1GFD9K7gNCsJJnOebsvmTfZ7gTl18-txN/view" target="_blank"
+                        class="button">Ver Livro</a>
                 </div>
+
                 <div class="book">
-                    <img src="capa-python2.jpg" alt="Livro Python 2">
-                    <p>Livro 2 - Python Avançado</p>
-                    <a href="link-do-livro-python2.pdf" target="_blank" class="button">Ver Livro</a>
+                    <img src="./assets/images/Automatize-Tarefas-Macantes.jpg" alt="Livro Python 2">
+                    <p>Automatize Tarefas Maçantes</p>
+                    <span class="author-label">Autor:</span>
+                    <span class="author">Al Sweigart</span>
+                    <a href="https://drive.google.com/file/d/1-_CHCWUJDVNk4WgMCbrJmfyZjmuNZE5f/view" target="_blank"
+                        class="button">Ver Livro</a>
                 </div>
             </div>
         </div>
-
-        <div id="java" class="content">
-            <h2>Livros de Java</h2>
+        <div id="redes" class="content">
+            <h2>Livros de Redes</h2>
             <div class="grid">
                 <div class="book">
-                    <img src="capa-java1.jpg" alt="Livro Java 1">
-                    <p>Livro 1 - Java Básico</p>
-                    <a href="link-do-livro-java1.pdf" target="_blank" class="button">Ver Livro</a>
+                    <img src="./assets/images/Organizacao-Estruturada-de-Computadores.jpg" alt="Livro Redes 1">
+                    <p>Organizacao Estruturada de Computadores</p>
+                    <span class="author-label">Autor:</span>
+                    <span class="author">Tanenbaum</span>
+                    <a href="https://drive.google.com/file/d/1kY2PHX9ub1cgnvLPPW07snFz-Wtc4Cwx/view" target="_blank"
+                        class="button">Ver Livro</a>
                 </div>
-                <div class="book">
-                    <img src="capa-java2.jpg" alt="Livro Java 2">
-                    <p>Livro 2 - Java para Web</p>
-                    <a href="link-do-livro-java2.pdf" target="_blank" class="button">Ver Livro</a>
-                </div>
-            </div>
-        </div>
 
-        <div id="javascript" class="content">
-            <h2>Livros de JavaScript</h2>
-            <div class="grid">
                 <div class="book">
-                    <img src="capa-js1.jpg" alt="Livro JavaScript 1">
-                    <p>Livro 1 - JavaScript para Iniciantes</p>
-                    <a href="link-do-livro-js1.pdf" target="_blank" class="button">Ver Livro</a>
+                    <img src="./assets/images/Redes-de-Computadores-e-Internet.jpg" alt="Livro Redes 2">
+                    <p>Redes de Computadores e Internet - Uma abordagem Top Down</p>
+                    <span class="author-label">Autor:</span>
+                    <span class="author">Kurose Ross</span>
+                    <a href="" target="_blank" class="button">Ver Livro</a>
                 </div>
+
                 <div class="book">
-                    <img src="capa-js2.jpg" alt="Livro JavaScript 2">
-                    <p>Livro 2 - JavaScript Moderno</p>
-                    <a href="link-do-livro-js2.pdf" target="_blank" class="button">Ver Livro</a>
+                    <img src="./assets/images/Sistemas-Operacionais-Modernos.jpg" alt="Livro Redes 3">
+                    <p>Sistemas Operacionais Modernos</p>
+                    <span class="author-label">Autor:</span>
+                    <span class="author">Tanenbaum</span>
+                    <a href="https://drive.google.com/file/d/1PsyiVGlMrTjMAKZ0M_bHFwRp7FYy50bs/view" target="_blank"
+                        class="button">Ver Livro</a>
                 </div>
             </div>
         </div>
