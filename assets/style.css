@@ -1,16 +1,15 @@
 /* Estilos gerais */
 body {
-    font-family: 'Roboto', sans-serif; /* Fonte moderna */
+    font-family: 'Roboto', sans-serif; 
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f5; /* Cor de fundo suave */
+    background-color: #f0f0f5; 
     color: #333;
 }
 
-/* Cabeçalho */
 header {
-    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradiente moderno */
+    background: linear-gradient(135deg, #6a11cb, #2575fc); 
     color: #fff;
     padding: 2rem 0;
     text-align: center;
@@ -30,7 +29,6 @@ header p {
     font-size: 1.2rem;
 }
 
-/* Navegação */
 nav {
     background: #fff;
     padding: 0.8rem 0;
@@ -43,7 +41,7 @@ nav {
     justify-content: center;
     margin: 0;
     padding: 0;
-    gap: 1rem; /* Espaçamento entre abas */
+    gap: 1rem; 
 }
 
 .tab {
@@ -62,7 +60,6 @@ nav {
     color: white;
 }
 
-/* Área principal */
 main {
     padding: 2rem 1rem;
     max-width: 1200px;
@@ -78,14 +75,13 @@ main {
     display: block;
 }
 
-/* Grade de livros */
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 2rem; /* Espaçamento maior entre itens */
+    grid-template-columns: repeat(4, 1fr); 
+    
+    gap: 3.5rem 1rem;
 }
 
-/* Cartão de livro */
 .book {
     background: #fff;
     padding: 1.5rem;
@@ -96,7 +92,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%; /* Garante altura consistente */
+    height: 100%;
 }
 
 .book:hover {
@@ -106,9 +102,9 @@ main {
 
 .book img {
     max-width: 100%;
-    max-height: 220px; /* Limita a altura */
+    max-height: 220px; 
     border-radius: 10px;
-    object-fit: cover; /* Garante o ajuste sem distorção */
+    object-fit: cover;
     margin-bottom: 1rem;
 }
 
@@ -118,13 +114,13 @@ main {
     font-weight: bold;
     color: #444;
     text-align: center;
-    min-height: 3rem; /* Define altura mínima para títulos */
+    min-height: 3rem; 
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-/* Nome do Autor */
+
 .book .author {
     margin-top: 0.5rem;
     font-size: 0.9rem;
@@ -138,7 +134,7 @@ main {
     margin-top: 0.5rem;
 }
 
-/* Botão */
+
 .button {
     display: inline-block;
     padding: 0.7rem 1.2rem;
@@ -155,10 +151,10 @@ main {
 
 .button:hover {
     background: #6a11cb;
-    transform: scale(1.05); /* Efeito de zoom no botão */
+    transform: scale(1.05); 
 }
 
-/* Animação */
+
 @keyframes fadeIn {
     from {
         opacity: 0;
